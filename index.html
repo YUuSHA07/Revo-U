@@ -4,8 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=h1">
     <title>Camp Revo-U</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <h1>Hello word</h1>
+    <p class="text-3xl pb-4 text-blue-500 font-bold pl-6 pt-6 bg-yellow-100">Hello word</p>
+    <hr><!--garis-->
+    <p>Halo Nama dia <br><!--kebawah--> Sulthon</p>
+    
+    <h1>Test wak</h1>
+    <p>Teks ini <b>bold</b></p>
+    <p>Teks ini <i>italic</i></p>
+    <p>Teks ini <u>underline</u></p>
+    <p>ini <sub>bawah</sub> ini <sup>atas</sup></p>
+    
+    <h1>bulet point</h1>
+    <ul type="circle">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <h1>urutan angka</h1>
+    <ol type="A">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+
+    <h1>Tabel</h1>
+    <table border="3" id="tabel">
+        <thead><!--Header Tabel-->
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody> <!--isi tabel-->
+            <tr>
+                <td>Alfred</td>
+                <td>askjdkjanjkdn</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Budi</td>
+                <td>kasjdakld</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <td>Sulthan</td>
+                <td>Tasdads</td>
+                <td>Thailand</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <img src="gambar.png" width="300px" alt="gambar battlefild 5">
+
+    <p>Link menuju ke <a href="second.html">second</a></p>
+    <p>Link menuju ke <a href="#tabel">tabel</a></p>
+
+    <form action="">
+        <label for="">Nama</label>
+        <input type="text">
+        <br>
+        <label for="">Umur</label>
+        <input type="number" min="0" max="120">
+        <br>
+        <label for="">Password</label>
+        <input type="password">
+        <br>
+        <label for="">Jenis Kelamin</label>
+        <input type="radio" value="Laki-Laki" name="jenis kelamin">Laki Laki
+        <input type="radio" value="perempuan" name="jenis kelamin">perempuan
+        <br>
+        <label for="">Makanan favorit</label>
+        <select name="" id="">
+            <option value="Ayam Penyet">Ayam Penyet</option>
+            <option value="nasi goreng">Nasi Goreng</option>
+        </select>
+        <br>
+        <label for="">Coment</label>
+        <br>
+        <textarea rows="5" cols="30" placeholder="Tulis Komentas disini...." name="" id=""></textarea>
+        <br>
+        <input type="checkbox">Saya setuju dengan syarat
+        <br>
+        <input type="submit" value="Kirim">
+        <button type="submit">Send</button>
+    </form>
 </body>
 </html>
